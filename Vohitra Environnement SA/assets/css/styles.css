@@ -1,0 +1,82 @@
+.square-container {
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.square-contains {
+  padding-top: 100%;
+}
+
+.square {
+  width: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.item {
+  max-width: 100%;
+  padding: 1%;
+  position: relative;
+}
+
+.accordion-item {
+  padding-bottom: 2%;
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+}
+
+i {
+  color: #009CBD;
+}
+
+h1 {
+  color: #43B02A;
+  font-family: 'Public Sans', sans-serif;
+}
+
+hr {
+  width: 20%;
+  color: #009CBD;
+  opacity: 1;
+  height: 5px;
+  margin-right: 40%;
+  margin-left: 40%;
+  border-width: 3px;
+}
+
+.titre_vohitra {
+  font-size: 16px;
+  color: #43B02A;
+  font-weight: bold;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.card-header {
+  background: rgb(255,255,255);
+}
+
+/* bordure des liens */
+.nav-tabs {
+	--bs-nav-tabs-link-hover-border-color: #009CBD;
+}
+
+.historique_image {
+  width: 80% ;
+  height: 80% ;
+  margin: 10% ;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  background-size: cover;
+  border: 10px solid #009cbd;
+}
